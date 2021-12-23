@@ -5,9 +5,17 @@
   "repository": "https://github.com/rojas901/apisofka.git",
   "author": "Carlos Rojas <caranroja@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "mongoose": "^6.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
