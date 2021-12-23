@@ -13,7 +13,6 @@ const jugadorSchema = new Schema({
     },
     fecha:{
         type: String,
-        require: true,
         default: null
     }
 });

@@ -1,15 +1,4 @@
-import { gql } from "apollo-server-express";
+import { tiposJugador } from "../models/jugador/tipos.js";
+import { tiposPregunta } from "../models/pregunta/tipos.js";
 
-const typeDefs = gql`
-    type Jugador{
-        nombre: String!,
-        puntaje: Int!,
-        fecha: String!
-    }
-
-    type Query{
-        Jugadores: [Jugador]
-    }
-`;
-
-export {typeDefs};
+export const tipos = [tiposJugador, tiposPregunta];
