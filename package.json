@@ -1,0 +1,13 @@
+{
+  "name": "apisofka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rojas901/apisofka.git",
+  "author": "Carlos Rojas <caranroja@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.3"
+  }
+}
