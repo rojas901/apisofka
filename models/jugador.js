@@ -8,7 +8,13 @@ const jugadorSchema = new Schema({
     },
     puntaje:{
         type: Number,
-        default: 0
+        default: 0,
+        require: true
+    },
+    fecha:{
+        type: String,
+        require: true,
+        default: null
     }
 });
 
