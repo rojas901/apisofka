@@ -13,7 +13,7 @@ const resolversJugador = {
             const jugadorCreado = await JugadorModel.create({
                 nombre: args.nombre,
                 puntaje: args.puntaje,
-                fecha: date.toLocaleDateString()
+                fecha: date.toLocaleString()
             });
             return jugadorCreado;
         }
